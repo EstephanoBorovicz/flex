@@ -1,0 +1,29 @@
+/*reset css */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha1 {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: right;
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(170, 156, 233);
+    gap: 5px;
+}
+
+.linha1 div {
+    height: 50%;
+    width: 100px;
+    border-radius: 100%;
+    background-color: rgb(128, 117, 176);
+}
