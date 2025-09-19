@@ -22,7 +22,7 @@ body {
 }
 
 .linha1 div {
-    height: 50%;
+    height: 100px;
     width: 100px;
     border-radius: 100%;
     background-color: rgb(128, 117, 176);
@@ -40,9 +40,62 @@ body {
 }
 
 .linha2 div {
-    height: 50%;
+    height: 100px;
     width: 100px;
     border-radius: 100%;
     background-color: rgb(131, 166, 118);
 }
 
+.linha3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(233, 156, 156);
+    gap: 5px;
+}
+
+.linha3 div {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: rgb(198, 86, 86);
+}
+
+.linha4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(233, 232, 156);
+    gap: 5px;
+}
+
+.linha4 div {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: rgb(207, 176, 64);
+}
+
+.linha5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(126, 151, 208);
+    gap: 5px;
+}
+
+.linha5 div {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: rgb(54, 79, 170);
+}
